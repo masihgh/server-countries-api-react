@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 var cors = require('cors')
 const port = process.env.PORT || 3001;
+
 let data = require('./data.json')
 app.use(cors({
   origin: '*'
